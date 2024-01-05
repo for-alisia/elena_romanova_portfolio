@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { RadioGroup } from '@headlessui/react';
 
 function MyRadioGroup() {
-  let [plan, setPlan] = useState('startup')
+  const [plan, setPlan] = useState('startup')
 
   return (
     <RadioGroup value={plan} onChange={setPlan}>
