@@ -9,7 +9,8 @@ module.exports = {
   plugins: ["react", "jsx-a11y", "import"],
   rules: {
     "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
-    "import/extensions": ["error", "never", { "svg": "always" }]
+    "import/extensions": ["error", "never", { "svg": "always" }],
+    semi: ['error', 'always'],
   },
   overrides: [
     {
